@@ -668,7 +668,7 @@ li.menu-item .nav-label,
 .header-nav-section li .nav-label{
     color: #fff;
     text-transform: uppercase;
-    background: #f59524;
+    background: purple;
     font-size: 8px;
 	padding: 0 10px 2px 10px;
     position: relative;
@@ -679,8 +679,8 @@ li.menu-item .nav-label::before,
 .header-nav-section li .nav-label::before{
     content: '';
     display: block;
-    border-top: 0 solid #f59524;
-    border-left: 9px solid #f59524;
+    border-top: 0 solid purple;
+    border-left: 9px solid purple;
     border-bottom: 5px solid transparent;
     border-right: 5px solid transparent;
     position: absolute;
@@ -696,11 +696,11 @@ li.menu-item .nav-label.new-label::before{
 }
 
 li.menu-item .nav-label.sale-label{
-	background: #ff2832;
+	background: purple;
 }
 li.menu-item .nav-label.sale-label::before{
-	border-top-color: #ff2832;
-	border-left-color: #ff2832;
+	border-top-color: purple;
+	border-left-color: purple;
 }
 
 .header-nav-section li:not(:last-child)::after{
@@ -1589,7 +1589,7 @@ li.menu-item .nav-label.sale-label::before{
     width: 100%;
     /*float: left;*/
     text-align: left;
-    background-color: #ff2832;
+    background-color: purple;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -5594,7 +5594,7 @@ table.shop_attributes tbody{
 }
 .wrap-footer-item .wrap-hotline-footer .phone-number,
 .topbar-menu-area .topbar-menu .label-before.fa-mobile{
-    color: #ff2832 !important;
+    color: purple !important;
 }
 .fill-color .header-nav-section ul li a{
     color: #ffffff;
