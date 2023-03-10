@@ -11,7 +11,7 @@ function Navbar() {
                     <div class="topbar-menu left-menu">
                         <ul>
                             <li class="menu-item" >
-                                <a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+                                <a title="Hotline: (+254) 720 423 764" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+254) 720 423 764</a>
                             </li>
                         </ul>
                     </div>
@@ -21,26 +21,11 @@ function Navbar() {
                             <li class="menu-item" ><a title="Register or Login" href="register.html">Register</a></li>
                             <li class="menu-item lang-menu menu-item-has-children parent">
                                 <a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"/></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="submenu lang" >
-                                    <li class="menu-item" ><a title="hungary" href="#"><span class="img label-before"><img src="assets/images/lang-hun.png" alt="lang-hun"/></span>Hungary</a></li>
-                                    <li class="menu-item" ><a title="german" href="#"><span class="img label-before"><img src="assets/images/lang-ger.png" alt="lang-ger"/ ></span>German</a></li>
-                                    <li class="menu-item" ><a title="french" href="#"><span class="img label-before"><img src="assets/images/lang-fra.png" alt="lang-fre"/></span>French</a></li>
-                                    <li class="menu-item" ><a title="canada" href="#"><span class="img label-before"><img src="assets/images/lang-can.png" alt="lang-can"/></span>Canada</a></li>
-                                </ul>
+                               
                             </li>
                             <li class="menu-item menu-item-has-children parent" >
-                                <a title="Dollar (USD)" href="#">Dollar (USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <ul class="submenu curency" >
-                                    <li class="menu-item" >
-                                        <a title="Pound (GBP)" href="#">Pound (GBP)</a>
-                                    </li>
-                                    <li class="menu-item" >
-                                        <a title="Euro (EUR)" href="#">Euro (EUR)</a>
-                                    </li>
-                                    <li class="menu-item" >
-                                        <a title="Dollar (USD)" href="#">Dollar (USD)</a>
-                                    </li>
-                                </ul>
+                                <a title="Kenya (KSH)" href="#">Kenya (KSH)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                               
                             </li>
                         </ul>
                     </div>
@@ -51,7 +36,7 @@ function Navbar() {
                 <div class="mid-section main-info-area">
 
                     <div class="wrap-logo-top left-section">
-                        <a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt="mercado"/></a>
+                        <a href="index.html" class="link-to-home"><img src="assets/images/logo-top-1.png" alt=""/></a>
                     </div>
 
                     <div class="wrap-search center-section">
@@ -64,22 +49,22 @@ function Navbar() {
                                     <a href="#" class="link-control">All Category</a>
                                     <ul class="list-cate">
                                         <li class="level-0">All Category</li>
-                                        <li class="level-1">-Electronics</li>
-                                        <li class="level-2">Batteries & Chargens</li>
-                                        <li class="level-2">Headphone & Headsets</li>
-                                        <li class="level-2">Mp3 Player & Acessories</li>
-                                        <li class="level-1">-Smartphone & Table</li>
-                                        <li class="level-2">Batteries & Chargens</li>
-                                        <li class="level-2">Mp3 Player & Headphones</li>
-                                        <li class="level-2">Table & Accessories</li>
-                                        <li class="level-1">-Electronics</li>
-                                        <li class="level-2">Batteries & Chargens</li>
-                                        <li class="level-2">Headphone & Headsets</li>
-                                        <li class="level-2">Mp3 Player & Acessories</li>
-                                        <li class="level-1">-Smartphone & Table</li>
-                                        <li class="level-2">Batteries & Chargens</li>
-                                        <li class="level-2">Mp3 Player & Headphones</li>
-                                        <li class="level-2">Table & Accessories</li>
+                                        <li class="level-1"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-1"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-1"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-1"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
+                                        <li class="level-2"></li>
                                     </ul>
                                 </div>
                             </form>
