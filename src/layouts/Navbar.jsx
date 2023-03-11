@@ -31,7 +31,7 @@ function Navbar() {
 
                         <div className="wrap-icon right-section">
                             <div className="wrap-icon-section wishlist">
-                                <a href="#" className="link-direction">
+                                <a href="/wishList" className="link-direction">
                                     <i className="fa " aria-hidden="true"><GoTasklist/></i>
                                     <div className="left-info">
                                         <span className="index">0 item</span>
@@ -40,8 +40,8 @@ function Navbar() {
                                 </a>
                             </div>
                             <div className="wrap-icon-section minicart">
-                                <a href="#" className="link-direction">
-                                <i className="fa " aria-hidden="true"><BsFillCartCheckFill/></i>
+                                <a href="/cart" className="link-direction">
+                                <i className="fa" aria-hidden="true"><BsFillCartCheckFill/></i>
                                     <div className="left-info">
                                         <span className="index">4 items</span>
                                         <span className="title">CART</span>
@@ -77,7 +77,7 @@ function Navbar() {
                         <div className="container">
                             <ul className="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
                                 <li className="menu-item">
-                                    <a href="shop.html" className="link-term mercado-item-title">Shop</a>
+                                    <a href="/shop" className="link-term mercado-item-title">Shop</a>
                                 </li>
                                 <li className="menu-item">
                                     <a href="cart.html" className="link-term mercado-item-title">Cart</a>
@@ -93,7 +93,6 @@ function Navbar() {
             </div>
         </div>
     </header>
-     
     </div>
   )
 }

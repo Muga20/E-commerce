@@ -125,7 +125,7 @@ function Footer() {
 									<div class="item-content">
 										<div class="wrap-vertical-nav">
 											<ul>
-												<li class="menu-item"><a href="#" class="link-term">Contact Us</a></li>
+												<li class="menu-item"><a href="/contact" class="link-term">Contact Us</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Returns</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Order History</a></li>
 											</ul>

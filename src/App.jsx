@@ -18,6 +18,8 @@ import Cart from './components/Cart';
 import Details from './components/Details';
 import About from './components/About';
 import Topnav from './layouts/Topnav';
+import WishList from './components/WishList';
+
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
           <Route path="cart" element={<Cart/>} />
           <Route path="details" element={<Details/>}/>
           <Route path='about'  element={<About/>} />
+          <Route path='wishList'  element={<WishList/>} />
           </Routes>
              <Footer/>
           </BrowserRouter>  

@@ -3,13 +3,11 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-    <main id="main" class="main-site left-sidebar">
-
+    <main id="main" class="main-site left-sidebar"> 
     <div class="container">
-
         <div class="wrap-breadcrumb">
             <ul>
-                <li class="item-link"><a href="#" class="link">home</a></li>
+                <li class="item-link"><a href="/home" class="link">home</a></li>
                 <li class="item-link"><span>Contact us</span></li>
             </ul>
         </div>
@@ -97,9 +95,7 @@ function Contact() {
 
     </div>
 
-</main>
-    
-    
+    </main>
     </div>
   )
 }
