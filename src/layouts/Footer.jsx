@@ -1,5 +1,9 @@
 import React from 'react'
-
+import { ImLocation2 } from 'react-icons/im';
+import { MdPayment } from 'react-icons/md';
+import { BiSupport } from 'react-icons/bi';
+import { AiOutlineSafety, AiOutlineMail } from 'react-icons/ai';
+import { BsTwitter,BsFacebook,BsInstagram } from 'react-icons/bs';
 function Footer() {
   return (
     <div>
@@ -11,7 +15,7 @@ function Footer() {
 				<div class="container">
 					<ul>
 						<li class="fc-info-item">
-							<i class="fa fa-truck" aria-hidden="true"></i>
+							<i><ImLocation2/></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Free Shipping Around Nairobi</h4>
 								<p class="fc-desc">Free On Order Over KSH99000</p>
@@ -19,7 +23,7 @@ function Footer() {
 
 						</li>
 						<li class="fc-info-item">
-							<i class="fa fa-recycle" aria-hidden="true"></i>
+							<i><AiOutlineSafety/></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Guarantee</h4>
 								<p class="fc-desc">30 Days Money Back</p>
@@ -27,7 +31,7 @@ function Footer() {
 
 						</li>
 						<li class="fc-info-item">
-							<i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+							<i><MdPayment/></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Safe Payment</h4>
 								<p class="fc-desc">Safe your online payment</p>
@@ -35,7 +39,7 @@ function Footer() {
 
 						</li>
 						<li class="fc-info-item">
-							<i class="fa fa-life-ring" aria-hidden="true"></i>
+							<i><BiSupport/></i>
 							<div class="wrap-left-info">
 								<h4 class="fc-name">Online Suport</h4>
 								<p class="fc-desc">We Have Support 24/7</p>
@@ -60,15 +64,15 @@ function Footer() {
 									<div class="wrap-contact-detail">
 										<ul>
 											<li>
-												<i class="fa fa-map-marker" aria-hidden="true"></i>
+											  <i><ImLocation2/></i>
 												<p class="contact-txt">Nairobi,Kenya</p>
 											</li>
 											<li>
-												<i class="fa fa-phone" aria-hidden="true"></i>
+											     <i><BiSupport/></i>
 												<p class="contact-txt">(+254) 720 423 764</p>
 											</li>
 											<li>
-												<i class="fa fa-envelope" aria-hidden="true"></i>
+											  <i><AiOutlineMail/></i>
 												<p class="contact-txt">mtumbaapp@gmail.com</p>
 											</li>											
 										</ul>
@@ -111,9 +115,6 @@ function Footer() {
 										<div class="wrap-vertical-nav">
 											<ul>
 												<li class="menu-item"><a href="#" class="link-term">My Account</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Brands</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Gift Certificates</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Affiliates</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Wish list</a></li>
 											</ul>
 										</div>
@@ -126,8 +127,6 @@ function Footer() {
 											<ul>
 												<li class="menu-item"><a href="#" class="link-term">Contact Us</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Returns</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Site Map</a></li>
-												<li class="menu-item"><a href="#" class="link-term">Specials</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Order History</a></li>
 											</ul>
 										</div>
@@ -157,18 +156,16 @@ function Footer() {
 								<div class="item-content">
 									<div class="wrap-list-item social-network">
 										<ul>
-											<li><a href="#" class="link-to-item" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="link-to-item" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="link-to-item" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="link-to-item" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#" class="link-to-item" title="vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+											<li><a href="#" class="link-to-item" title="twitter"><i><BsTwitter/></i></a></li>
+											<li><a href="#" class="link-to-item" title="facebook"><i><BsFacebook/></i></a></li>
+											<li><a href="#" class="link-to-item" title="instagram"><i><BsInstagram/></i></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
+						{/* <div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
 								<h3 class="item-header">Dowload App</h3>
 								<div class="item-content">
@@ -180,7 +177,7 @@ function Footer() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 
 					</div>
 				</div>
@@ -191,15 +188,15 @@ function Footer() {
 							<h3 class="backlink-title">Quick Links</h3>
 							<div class="back-link-row">
 								<ul class="list-back-link" >
-									<li><span class="row-title">CHINA:</span></li>
+									<li><span class="row-title">Categories:</span></li>
 									<li><a href="#" class="redirect-back-link" title="Baby">Baby Blanket</a></li>
 									<li><a href="#" class="redirect-back-link" title="Premium">Premium Babylight Rummage</a></li>
-									<li><a href="#" class="redirect-back-link" title="Babylight">Babylight Rummage#2</a></li>
+									<li><a href="#" class="redirect-back-link" title="Babylight">Babylight Rummage</a></li>
 									<li><a href="#" class="redirect-back-link" title="Bath">Bath & floor Mat</a></li>
 									<li><a href="#" class="redirect-back-link" title="BedSheet">BedSheet</a></li>
 									<li><a href="#" class="redirect-back-link" title="Children">Children Anorak Jacket</a></li>
 									<li><a href="#" class="redirect-back-link" title="Ladies">Ladies Fashion Tight</a></li>
-									<li><a href="#" class="redirect-back-link" title="Ladies t">Ladies Tshirt#1</a></li>
+									<li><a href="#" class="redirect-back-link" title="Ladies t">Ladies Tshirt</a></li>
 									<li><a href="#" class="redirect-back-link" title="Socks">Socks</a></li>
 									<li><a href="#" class="redirect-back-link" title="Poly">Poly Silk Blouse</a></li>
 								</ul>

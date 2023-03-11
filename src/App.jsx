@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes ,Router  } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import './assets/style.css'
 import Login from './authentication/Login';
 import Signup from './authentication/Signup';
@@ -17,6 +17,7 @@ import Shop from './components/Shop';
 import Cart from './components/Cart';
 import Details from './components/Details';
 import About from './components/About';
+import Topnav from './layouts/Topnav';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
           <BrowserRouter>
+             <Topnav/>
              <Navbar/>
           <Routes>
           <Route path='/' element={<Home/>} />

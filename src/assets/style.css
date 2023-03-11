@@ -569,6 +569,9 @@ input,textarea{
 	font-size: 15px;
 	color: #fff;
 }
+
+
+ /* navbar styles */
 .header .main-info-area .right-section,
 .header .main-info-area .center-section,
 .header .main-info-area .left-section{
@@ -720,7 +723,7 @@ li.menu-item .nav-label.sale-label::before{
 	background: transparent;
 }
 .header-style-1 .primary-nav-section{
-	background: #444444;
+	background: #365db5;
 }
 .primary{
 	position: relative;
@@ -1584,18 +1587,16 @@ li.menu-item .nav-label.sale-label::before{
 .wrap-show-advance-info-box.style-1 .style-nav-1 .owl-nav button.owl-prev{
     margin-left: 10px;
 }
-.wrap-show-advance-info-box .title-box{
+.wrap-show-advance-info-box-has-countdown{
     display: inline-block;
     width: 100%;
     /*float: left;*/
     text-align: left;
-    background-color: purple;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
     color: #fefefe;
     line-height: 14px;
-    padding: 13px 18px;
     margin: 0;
 }
 .wrap-combined-box .wrap-product-tab.tab-style-1{
@@ -1728,6 +1729,62 @@ li.menu-item .nav-label.sale-label::before{
     display: inline-block;
     position: relative;
 }
+
+
+ .group-flash{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1px;
+    height: auto;
+    max-width: 83px;
+}
+ .group-flash .flash-item{
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    background: #00bf3f;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 1.5px 9px 5.5px 9px;
+    line-height: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+ .group-flash .flash-item::before{
+    content: '';
+    display: block;
+    border-top: 0 solid #00bf3f;
+    border-left: 9px solid #00bf3f;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    bottom: -4px;
+    left: 4px;
+}
+ .group-flash .flash-item.new-label{
+    background-color: #365db5;
+    margin-left: 8px;
+}
+ .group-flash .flash-item.new-label::before{
+    border-top-color: #365db5;
+    border-left-color: #365db5;
+}
+ .group-flash .flash-item.sale-label{
+    background-color: #ff2832;
+    margin-left: 8px;
+}
+ .group-flash .flash-item.sale-label::before{
+    border-top-color: #ff2832;
+    border-left-color: #ff2832;
+}
+
+
+
+
 .product .product-thumnail .group-flash{
     display: inline-block;
     position: absolute;
@@ -6304,6 +6361,8 @@ background-color: #888888;
     }
 }
 
+
+/* responsive navbar */
 @media (max-width: 1024px){
     .sticky-wrapper{
         height: 0 !important;
