@@ -3,6 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
+    
     <main id="main" class="main-site">
 
     <div class="container">
@@ -16,7 +17,7 @@ function About() {
     </div>
     
     <div class="container">
-         <div class="main-content-area"> 
+            <div class="main-content-area"> 
             <div class="aboutus-info style-center">
                 <b class="box-title">Interesting Facts</b>
                 <p class="txt-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
@@ -103,6 +104,8 @@ function About() {
                 </div>
             </div>
 
+            {/**
+        
             <div class="our-team-info">
                 <h4 class="title-box">Our teams</h4>
                 <div class="our-staff">
@@ -198,12 +201,13 @@ function About() {
                 </div>
 
             </div>
-       
-
+          */}
+        
     </div>
     </div>
 
 </main>
+    
     </div>
   )
 }

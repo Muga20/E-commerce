@@ -1,98 +1,105 @@
-import React from 'react'
-import { BsFillCartCheckFill, BsSearch} from 'react-icons/bs';
-import { GoTasklist } from 'react-icons/go';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import imageOne from '../assets/images/logo-top-1.png'
 
 function Navbar() {
+
+  const [showList, setShowList] = useState(false); //state to control the visibility of the list
+
+  const handleListToggle = () => {
+    setShowList(!showList);
+  };
+
   return (
     <div>
-    <header id="header" className="header header-style-1">
-        <div className="container-fluid">
-            <div className="row">
-                <div className="container">
-                    <div className="mid-section main-info-area">
+    <header id="header" class="header header-style-1">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="container">
+					<div class="mid-section main-info-area">
 
-                        <div className="wrap-logo-top left-section">
-                            <a href="index.html" className="link-to-home "><p>Diamond Mtumba</p></a>
-                        </div>
+						<div class="wrap-logo-top left-section">
+							<a href="index.html" class="link-to-home"><img src={imageOne} alt="mercado"/></a>
+						</div>
 
-                        <div className="wrap-search center-section">
-                            <div className="wrap-search-form">
-                                <form action="#" id="form-search-top" name="form-search-top">
-                                    <input type="text" name="search" placeholder="Search by category"/>
-                                    <button form="form-search-top" type="button"><i><BsSearch/></i></button>
-                                    <div className="wrap-list-cate">
-                                        <input type="hidden" name="product-cate"  id="product-cate"/>
-                                        <a href="#" className="link-control">All Category</a>
-                                   
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+						<div class="wrap-search center-section">
+							<div class="wrap-search-form "  style={{borderRadius:'5px'}}>
+								<form action="#" id="form-search-top" name="form-search-top" > 
+									<input type="text" name="search" value="" placeholder="Search here..." 
+                                    />
+									<button form="form-search-top" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+									
+								</form>
+							</div>
+						</div>
 
-                        <div className="wrap-icon right-section">
-                            <div className="wrap-icon-section wishlist">
-                                <a href="/wishList" className="link-direction">
-                                    <i className="fa " aria-hidden="true"><GoTasklist/></i>
-                                    <div className="left-info">
-                                        <span className="index">0 item</span>
-                                        <span className="title">Wishlist</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="wrap-icon-section minicart">
-                                <a href="/cart" className="link-direction">
-                                <i className="fa" aria-hidden="true"><BsFillCartCheckFill/></i>
-                                    <div className="left-info">
-                                        <span className="index">4 items</span>
-                                        <span className="title">CART</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div className="wrap-icon-section show-up-after-1024">
-                                <a href="#" className="mobile-navigation">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
+						<div class="wrap-icon right-section">
+							<div class="wrap-icon-section wishlist">
+                            <Link to='' class="link-direction">
+									<i class="fa fa-heart" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">0 item</span>
+										<span class="title">Wishlist</span>
+									</div>
+							</Link>
+							</div>
+							<div class="wrap-icon-section minicart">
+                                 <Link to='cart' class="link-direction" >
+							
+									<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+									<div class="left-info">
+										<span class="index">4 items</span>
+										<span class="title">CART</span>
+									</div>
+							
+                                </Link>
+							</div>
+							<div class="wrap-icon-section show-up-after-1024">
+								<a href="#" class="mobile-navigation">
+									<span></span>
+									<span></span>
+									<span></span>
+								</a>
+							</div>
+						</div>
 
-                    </div>
-                </div>
+					</div>
+				</div>
 
-                <div className="nav-section header-sticky">
-                    <div className="header-nav-section">
-                        <div className="container">
-                            <ul className="nav menu-nav clone-main-menu" id="mercado_haead_menu" data-menuname="Sale Info" >
-                                <li className="menu-item"><a href="#" className="link-term">Weekly Featured</a><span className="nav-label hot-label">hot</span></li>
-                                <li className="menu-item"><a href="#" className="link-term">Hot Sale items</a><span className="nav-label hot-label">hot</span></li>
-                                <li className="menu-item"><a href="#" className="link-term">Top new items</a><span className="nav-label hot-label">hot</span></li>
-                                <li className="menu-item"><a href="#" className="link-term">Top Selling</a><span className="nav-label hot-label">hot</span></li>
-                                <li className="menu-item"><a href="#" className="link-term">Top rated items</a><span className="nav-label hot-label">hot</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div className="primary-nav-section">
-                        <div className="container">
-                            <ul className="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
-                                <li className="menu-item">
-                                    <a href="/shop" className="link-term mercado-item-title">Shop</a>
-                                </li>
-                                <li className="menu-item">
-                                    <a href="cart.html" className="link-term mercado-item-title">Cart</a>
-                                </li>
-                                <li className="menu-item">
-                                    <a href="checkout.html" className="link-term mercado-item-title">Checkout</a>
-                                </li>
-                              																	
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+				<div class="nav-section header-sticky">
+					<div class="primary-nav-section">
+						<div class="container">
+							<ul class="nav primary clone-main-menu" id="mercado_main" data-menuname="Main menu" >
+								<li class="menu-item home-icon">
+									<a href="/" class="link-term mercado-item-title"><i class="fa fa-home" aria-hidden="true"></i></a>
+								</li>
+								<li class="menu-item">
+                                   <Link to="about" class="link-term mercado-item-title" >About Us </Link>
+								
+								</li>
+								<li class="menu-item">
+                                    <Link to="shop" class="link-term mercado-item-title" >Shop </Link>
+							
+								</li>
+								<li class="menu-item">
+                                    <Link to="cart" class="link-term mercado-item-title" >Cart </Link>
+								
+								</li>
+								<li class="menu-item">
+                                    <Link to="checkout" class="link-term mercado-item-title" >Checkout</Link>
+								</li>
+								<li class="menu-item">
+                                   <Link to="contact" class="link-term mercado-item-title" >Contact </Link>
+								</li>																	
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+    
     </div>
   )
 }

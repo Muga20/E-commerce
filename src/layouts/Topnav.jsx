@@ -1,32 +1,49 @@
 import React from 'react'
-import { BiMobile } from 'react-icons/bi';
-import { TbLanguage } from 'react-icons/tb';
+import iconOne  from '../assets/images/lang-en.png'
+import iconTwo  from '../assets/images/lang-ger.png'
+import iconThree  from '../assets/images/lang-fra.png'
+import { Link } from 'react-router-dom'
 
 function Topnav() {
   return (
-    <header id="header" className="header header-style-1">
-      <div className="container-fluid">
-        <div className="row">
-            <div className="topbar-menu-area">
-              <div className="container">
-                   <div className="topbar-menu left-menu">
-                          <ul>
-                              <li className="menu-item" >
-                                  <p title="Hotline: (+254) 720 423 764" href="#" ><span className="icon label-before fa "><BiMobile/></span>Hotline: (+254) 720 423 764</p>
-                              </li>
-                          </ul>
-                    </div>
-                    <div className="topbar-menu right-menu">
-                       <ul>
-                              <li className="menu-item" ><a title="Register or Login" href="login.html">Login</a></li>
-                              <li className="menu-item" ><a title="Register or Login" href="register.html">Register</a></li>
+    <div> 
+    <header id="header" class="header header-style-1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="topbar-menu-area">
+                <div class="container">
+                    <div class="topbar-menu left-menu">
+                        <ul>
+                            <li class="menu-item" >
+                                <a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Number to be Updated </a>
+                            </li>
                         </ul>
                     </div>
-              </div>
+                    <div class="topbar-menu right-menu">
+                        <ul>
+                             
+                            <li class="menu-item" ><Link to="login" >Login</Link></li>
+                            <li class="menu-item" ><Link to="signup" >Register</Link></li>
+                             <li class="menu-item lang-menu menu-item-has-children parent">
+                                <a title="English" href="#"><span class="img label-before">
+                                <img src={iconOne} alt="lang-en"/></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <ul class="submenu lang" >
+                                    <li class="menu-item" ><a title="german" href="#"><span class="img label-before"><img src={iconTwo} alt="lang-ger"/ ></span>German</a></li>
+                                    <li class="menu-item" ><a title="french" href="#"><span class="img label-before"><img src={iconThree} alt="lang-fre"/></span>French</a></li>
+                                   
+                                </ul>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-      </div>
-    </header>
+            </div>
+            </div>
+            </header>
+    
+    
+    </div>
   )
 }
 
