@@ -4,6 +4,7 @@ import { BiSupport } from 'react-icons/bi';
 
 function Contact() {
   return (
+<<<<<<< HEAD
  <div>
     <main id="main" class="main-site left-sidebar"> 
         <div class="container">
@@ -23,6 +24,26 @@ function Contact() {
                                 <form action="#" method="get" name="frm-contact">
                                     <label for="name">Name<span>*</span></label>
                                     <input type="text" value="" id="name" name="name"/>
+=======
+    <div>
+    <main id="main" class="main-site left-sidebar">
+
+    <div class="container">
+
+        <div class="wrap-breadcrumb">
+            <ul>
+                <li class="item-link"><a href="#" class="link">home</a></li>
+                <li class="item-link"><span>Contact us</span></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class=" main-content-area">
+                <div class="wrap-contacts ">
+                    <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                        <div class="contact-box contact-form">
+                            <h2 class="box-title">Leave a Message</h2>
+                            <form action="#" method="get" name="frm-contact">
+>>>>>>> 5166312fed2193edbe6c106c7f8f6d5ad1e95c87
 
                                     <label for="email">Email<span>*</span></label>
                                     <input type="text" value="" id="email" name="email" />
@@ -86,8 +107,18 @@ function Contact() {
             </div>
 
         </div>
+<<<<<<< HEAD
     </main>
   </div>
+=======
+
+    </div>
+
+</main>
+    
+    
+    </div>
+>>>>>>> 5166312fed2193edbe6c106c7f8f6d5ad1e95c87
   )
 }
 
