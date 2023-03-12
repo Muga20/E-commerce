@@ -32,6 +32,10 @@ function Navbar() {
                 </div>
             </div>
 
+<<<<<<< HEAD
+                        <div className="wrap-logo-top left-section">
+                            <a href="/" className="link-to-home "><p>Diamond Mtumba</p></a>
+=======
             <div class="container">
                 <div class="mid-section main-info-area">
 
@@ -68,6 +72,7 @@ function Navbar() {
                                     </ul>
                                 </div>
                             </form>
+>>>>>>> 5166312fed2193edbe6c106c7f8f6d5ad1e95c87
                         </div>
                     </div>
 

@@ -110,11 +110,16 @@ function Footer() {
 									<div class="item-content">
 										<div class="wrap-vertical-nav">
 											<ul>
+<<<<<<< HEAD
+												<li class="menu-item"><a href="/yAccount" class="link-term">My Account</a></li>
+												<li class="menu-item"><a href="/WishList" class="link-term">Wish list</a></li>
+=======
 												<li class="menu-item"><a href="#" class="link-term">My Account</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Brands</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Gift Certificates</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Affiliates</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Wish list</a></li>
+>>>>>>> 5166312fed2193edbe6c106c7f8f6d5ad1e95c87
 											</ul>
 										</div>
 									</div>
@@ -126,9 +131,13 @@ function Footer() {
 											<ul>
 												<li class="menu-item"><a href="#" class="link-term">Contact Us</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Returns</a></li>
+<<<<<<< HEAD
+												{/* <li class="menu-item"><a href="#" class="link-term">Order History</a></li> */}
+=======
 												<li class="menu-item"><a href="#" class="link-term">Site Map</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Specials</a></li>
 												<li class="menu-item"><a href="#" class="link-term">Order History</a></li>
+>>>>>>> 5166312fed2193edbe6c106c7f8f6d5ad1e95c87
 											</ul>
 										</div>
 									</div>
