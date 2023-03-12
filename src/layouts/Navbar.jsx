@@ -17,8 +17,8 @@ function Navbar() {
                     </div>
                     <div class="topbar-menu right-menu">
                         <ul>
-                            <li class="menu-item" ><a title="Register or Login" href="login.html">Login</a></li>
-                            <li class="menu-item" ><a title="Register or Login" href="register.html">Register</a></li>
+                            <li class="menu-item" ><a title="Register or Login" href="Login">Login</a></li>
+                            <li class="menu-item" ><a title="Register or Login" href="signup">Register</a></li>
                             <li class="menu-item lang-menu menu-item-has-children parent">
                                 <a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"/></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                

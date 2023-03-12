@@ -3061,6 +3061,7 @@ vertical-align: top;
     line-height: 19px;
     padding: 0 5px 0 14px;
     color: #333333;
+
 }
 .wrap-login-item .form-item input[type="text"]::-webkit-input-placeholder,
 .wrap-login-item .form-item input[type="text"]::-moz-placeholder,
