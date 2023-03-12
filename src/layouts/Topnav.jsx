@@ -15,7 +15,7 @@ function Topnav() {
                     <div class="topbar-menu left-menu">
                         <ul>
                             <li class="menu-item" >
-                                <a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Number to be Updated </a>
+                                <a title="" href="#" ><span class="icon label-before fa fa-mobile"></span>Number to be Updated </a>
                             </li>
                         </ul>
                     </div>
