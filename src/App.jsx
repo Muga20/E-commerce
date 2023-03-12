@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes ,Router  } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/style.css'
+import './assets/style.css';
 import Login from './authentication/Login';
 import Signup from './authentication/Signup';
 import Navbar from './layouts/Navbar';
 import Footer from './layouts/Footer';
-import  './assets/animate.css'
-import './assets/chosen.min.css'
+import  './assets/animate.css';
+import './assets/chosen.min.css';
 import  './assets/color-01.css'
 import './assets/font-awesome.min.css'
 import './assets/owl.carousel.min.css'
