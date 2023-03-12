@@ -19,6 +19,8 @@ import Details from './components/Details';
 import About from './components/About';
 import Topnav from './layouts/Topnav';
 import WishList from './components/WishList';
+import Checkout from './components/Checkout';
+import MyAccount from './components/MyAccount';
 
 
 
@@ -31,6 +33,7 @@ function App() {
              <Navbar/>
           <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/yAccount' element={<MyAccount/>} />
           <Route path="login" element={<Login/>}/>
           <Route path="signup"  element={<Signup/>}/>
           <Route path="contact" element={<Contact/>}/>
@@ -39,6 +42,7 @@ function App() {
           <Route path="details" element={<Details/>}/>
           <Route path='about'  element={<About/>} />
           <Route path='wishList'  element={<WishList/>} />
+          <Route path='Checkout'  element={<Checkout/>} />
           </Routes>
              <Footer/>
           </BrowserRouter>  

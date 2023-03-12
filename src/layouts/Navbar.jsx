@@ -12,7 +12,7 @@ function Navbar() {
                     <div className="mid-section main-info-area">
 
                         <div className="wrap-logo-top left-section">
-                            <a href="index.html" className="link-to-home "><p>Diamond Mtumba</p></a>
+                            <a href="/" className="link-to-home "><p>Diamond Mtumba</p></a>
                         </div>
 
                         <div className="wrap-search center-section">
