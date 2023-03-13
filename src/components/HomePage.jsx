@@ -67,7 +67,8 @@ function HomePage() {
 				<h3 class="title-box">On Sale</h3>
 				<div class="wrap-countdown mercado-countdown" data-expire="2020/12/12 12:34:56"></div>
 				<div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container d-flex">
-					<div class="product product-style-2 equal-elem ">
+				  <div className='row gap-5 justify-content-center'>
+					<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
 						<div class="product-thumnail">
 							<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
 								<figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -85,7 +86,25 @@ function HomePage() {
 						</div>
 					</div>
 
-					<div class="product product-style-2 equal-elem ">
+					<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+						<div class="product-thumnail">
+							<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+								<figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
+							</a>
+							<div class="group-flash">
+								<span class="flash-item sale-label">sale</span>
+							</div>
+							<div class="wrap-btn">
+								<a href="#" class="function-link">quick view</a>
+							</div>
+						</div>
+						<div class="product-info">
+							<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
+							<div class="wrap-price"><span class="product-price">$250.00</span></div>
+						</div>
+					</div>
+
+					<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
 						<div class="product-thumnail">
 							<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
 								<figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}}  alt=""/></figure>
@@ -103,7 +122,7 @@ function HomePage() {
 						</div>
 					</div>
 
-					<div class="product product-style-2 equal-elem ">
+					<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
 						<div class="product-thumnail">
 							<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
 								<figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}}   alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -121,7 +140,7 @@ function HomePage() {
 						</div>
 					</div>
 
-					<div class="product product-style-2 equal-elem ">
+					<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
 						<div class="product-thumnail">
 							<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
 								<figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}}   alt=""/></figure>
@@ -138,7 +157,7 @@ function HomePage() {
 							<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
 						</div>
 					</div>
-
+				  </div>
 				</div>
 			</div>
 
@@ -154,8 +173,8 @@ function HomePage() {
           <div class="tab-contents">
             <div class="tab-content-item active" id="digital_1a">
               <div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container d-flex" >
-
-                <div class="product product-style-2 equal-elem ">
+			   <div className='row gap-5 justify-content-center'>	
+                <div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                   <div class="product-thumnail">
                     <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                       <figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -173,7 +192,7 @@ function HomePage() {
                   </div>
                 </div>
 
-                <div class="product product-style-2 equal-elem ">
+                <div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                   <div class="product-thumnail">
                     <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                       <figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -191,7 +210,7 @@ function HomePage() {
                   </div>
                 </div>
 
-                <div class="product product-style-2 equal-elem ">
+                <div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                   <div class="product-thumnail">
                     <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                       <figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -210,7 +229,26 @@ function HomePage() {
                   </div>
                 </div>
 
-                <div class="product product-style-2 equal-elem ">
+				<div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
+                  <div class="product-thumnail">
+                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                      <figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
+                    </a>
+                    <div class="group-flash">
+                      <span class="flash-item new-label">new</span>
+                      <span class="flash-item sale-label">sale</span>
+                    </div>
+                    <div class="wrap-btn">
+                      <a href="#" class="function-link">quick view</a>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
+                    <div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+                  </div>
+                </div>
+
+                <div class="product product-style-2 equal-elem col-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2">
                   <div class="product-thumnail">
                     <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                       <figure><img src={imageFour} style={{width:"290px",height:"200px",borderRadius:'5px'}} alt="T-Shirt Raw Hem Organic Boro Constrast Denim"/></figure>
@@ -227,8 +265,7 @@ function HomePage() {
                     <div class="wrap-price"><span class="product-price">$250.00</span></div>
                   </div>
                 </div>
-
-
+               </div>
               </div>
             </div>							
           </div>

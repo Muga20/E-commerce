@@ -28,7 +28,7 @@ function Cart() {
 								<figure><img src={imageOne} alt=""/></figure>
 							</div>
 							<div class="product-name">
-								<a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
+								<p class="link-to-product">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</p>
 							</div>
 							<div class="price-field produtc-price"><p class="price">$256.00</p></div>
 							<div class="quantity">
@@ -51,7 +51,7 @@ function Cart() {
 								<figure><img src={imageTwo} alt=""/></figure>
 							</div>
 							<div class="product-name">
-								<a class="link-to-product" href="#">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</a>
+								<p class="link-to-product">Radiant-360 R6 Wireless Omnidirectional Speaker [White]</p>
 							</div>
 							<div class="price-field produtc-price"><p class="price">$256.00</p></div>
 							<div class="quantity">
